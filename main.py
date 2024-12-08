@@ -7,7 +7,7 @@ from io import BytesIO
 
 app = Flask(__name__)
 
-genai.configure(api_key="AIzaSyBIOvgKl01wOqvXs0b9b1lD9dZA_ELdnN4")
+genai.configure(api_key=GOOGLE_API_KEYS)
 model = genai.GenerativeModel('gemini-1.5-flash')
 # model = genai.GenerativeModel('gemini-pro')
 
