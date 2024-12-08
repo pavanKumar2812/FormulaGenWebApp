@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="{{ url_for('static', filename='index.js') }}"></script>
+    <script src="{{ url_for('static', filename='dreasgrech-jsLatex-64089da/jquery.jslatex.js') }}"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Formula Generator</h1>
+        <form id="formulaForm">
+            <label for="formula_description">Enter the formula name or description:</label>
+            <input type="text" id="formula_description" name="formula_description" placeholder="e.g., MSE, Radius of circle" required>
+            <button type="submit" class="GenBtn">Generate Formula</button>
+        </form>
+
+        <div class="result-container">
+            <div id="latex_code_container"></div>
+            <div id="latex_image_container"></div>
+            <div id="error_message" class="error"></div>
+        </div>
+        
+    </div>
+</body>
+</html>
