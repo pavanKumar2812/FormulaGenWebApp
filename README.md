@@ -22,7 +22,7 @@ The Formula Generator is a web-based application that dynamically converts user-
 ## 📦 Setup Instructions
 1. Clone this repository:
 ```bash
-git clone https://github.com/<your-username>/formula-generator.git
+git clone [https://github.com/pavanKumar2812/FormulaGenWebApp.git]
 ```
 2. Navigate to the project directory:
 ```bash
