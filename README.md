@@ -11,7 +11,10 @@ The Formula Generator is a web-based application that dynamically converts user-
 * Clean and user-friendly interface built with HTML, CSS, Bootstrap, and jQuery.
 
 ## 🖼️ Screenshots
-
+![SGD](assets/SGD.png)
+![Recall](assets/Recall.png)
+![MAE](assets/MAE.png)
+![MSE](assets/MSE.png)
 
 ## 🛠️ Technologies Used
 * Frontend: HTML, CSS, Bootstrap, jQuery
